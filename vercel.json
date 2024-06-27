@@ -8,6 +8,14 @@
     ],
     "routes": [
         {
+            "src": "/book_store/books/(.*)",
+            "dest": "/index.js"
+        },
+        {
+            "src": "/book_store/users/(.*)",
+            "dest": "/index.js"
+        },
+        {
             "src": "/(.*)",
             "dest": "/"
         }
